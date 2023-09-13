@@ -4,7 +4,7 @@ import CountriesList from './CountriesList';
 
 const MainPage = () => (
   <div>
-    <img src={image} alt="Europe Map" />
+    <img src={image} alt="Europe Map" className="img-fluid" />
     <CountriesList />
   </div>
 );

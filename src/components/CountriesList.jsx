@@ -1,12 +1,13 @@
 import React from 'react';
 import EuropeCountries from './EuropeCountries';
+import CountryItem from './CountryItem';
 
 const CountriesList = () => (
-  <div>
+  <div className="container">
     <h1>Europe Countries</h1>
-    <div>
-      {EuropeCountries.map((state) => (
-        <h4 key={state.id}>{state.country}</h4>
+    <div className="row">
+      {EuropeCountries.map((country) => (
+        <CountryItem key={country.id} country={country} />
       ))}
     </div>
   </div>
