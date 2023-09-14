@@ -1,7 +1,9 @@
 import React from 'react';
 
 const PollutionsDetails = () => (
-  <h3>PollutionsDetails</h3>
+  <div className="d-flex">
+    <h3 className="text-dark">PollutionsDetails</h3>
+  </div>
 );
 
 export default PollutionsDetails;

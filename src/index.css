@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;700&family=Roboto+Slab:wght@300;400;600;700;900&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
 
+body {
+  background-color: #5688e3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +11,6 @@
   font-family: 'Lato', sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  background-color: #5688e3;
   color: #f5f8ff;
   text-decoration: none;
   list-style: none;
@@ -15,6 +18,7 @@
 
 :root {
   --bg-bar: #4369b2;
+  --bg-nav: #35548b;
   --subtitle-size: 1rem;
   --subtitle-weight: 500;
 }
@@ -38,3 +42,23 @@
 .country-item:nth-child(4n+2) * {
   background-color: #4067ae;
 }
+
+.main-list-title {
+  background-color: var(--bg-nav);
+}
+
+nav {
+  background-color: var(--bg-bar);
+}
+
+.backBtn,
+.settingBtn,
+.micBtn {
+  width: 100%;
+  height: 1.7rem;
+}
+.detailBtn {
+  height: auto;
+  width: 1.5rem
+}
+
