@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
 
 const CountryItem = ({ country }) => (
-  <div className="col-5">
+  <div className="col-6 country-item">
     <div className="d-flex justify-content-around">
       <span className="">{`Lat: ${country.latitude}`}</span>
       <span className="">{`Lon: ${country.longitude}`}</span>

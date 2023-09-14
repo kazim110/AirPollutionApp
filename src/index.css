@@ -25,3 +25,23 @@ code {
     'Courier New',
     monospace;
 }
+
+.country-item:nth-child(4n+1),
+.country-item:nth-child(4n+4) {
+  background-color: #3f63a5;
+}
+
+.country-item:nth-child(4n+1) *,
+.country-item:nth-child(4n+4) * {
+  background-color: #3f63a5;
+}
+
+.country-item:nth-child(4n+3),
+.country-item:nth-child(4n+2) {
+  background-color: #4067ae;
+}
+
+.country-item:nth-child(4n+3) *,
+.country-item:nth-child(4n+2) * {
+  background-color: #4067ae;
+}
