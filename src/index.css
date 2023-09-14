@@ -1,29 +1,22 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;700&family=Roboto+Slab:wght@300;400;600;700;900&family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-color: #5688e3;
+  color: #f5f8ff;
+  text-decoration: none;
+  list-style: none;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+:root {
+  --bg-bar: #4369b2;
+  --subtitle-size: 1rem;
+  --subtitle-weight: 500;
 }
 
 .country-item:nth-child(4n+1),

@@ -3,8 +3,7 @@ import EuropeCountries from './EuropeCountries';
 import CountryItem from './CountryItem';
 
 const CountriesList = () => (
-  <div className="container">
-    <h1>Europe Countries</h1>
+  <div className="container mw-100">
     <div className="row">
       {EuropeCountries.map((country) => (
         <CountryItem key={country.id} country={country} />
