@@ -33,7 +33,7 @@ describe('CountriesList component', () => {
     const component = renderer.create(
       <Provider store={store}>
         <MemoryRouter>
-          <CountriesList isLoading={true} />
+          <CountriesList isLoading />
         </MemoryRouter>
       </Provider>,
     );
