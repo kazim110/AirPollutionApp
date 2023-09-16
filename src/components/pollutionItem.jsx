@@ -6,7 +6,7 @@ const PollutionItem = ({ item }) => (
   <li className="pollution-data d-flex justify-content-between px-5">
     <p className="mb-0 fs-6">{item.name}</p>
     <div className="pollution-value">
-      <p className="fs-6">
+      <p className="mb-0 fs-6">
         {item.value}
         μg/m3
       </p>

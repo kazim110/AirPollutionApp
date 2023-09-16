@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryItem component should render correctly with correct data 1`] = `
+<div
+  className="col-6 country-item"
+>
+  <div
+    className="d-flex p-1 justify-content-around"
+  >
+    <span
+      className=""
+    >
+      Lat: 46.9479
+    </span>
+    <span
+      className=""
+    >
+      Lon: 7.4474
+    </span>
+    <a
+      className="country-data"
+      href="/pollutionsDetails?lat=46.9479&lon=7.4474"
+      onClick={[Function]}
+    >
+      <svg
+        className="detailBtn"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="p-3"
+  >
+    <img
+      alt="Switzerland"
+      className="img-fluid"
+      src="https://raw.githubusercontent.com/Ginohmk/worldMaps/main/maps/ch/vector.svg"
+    />
+  </div>
+  <div>
+    <h3>
+      Switzerland
+    </h3>
+    <p>
+      Bern
+    </p>
+  </div>
+</div>
+`;
