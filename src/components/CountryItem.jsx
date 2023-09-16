@@ -14,7 +14,7 @@ const CountryItem = ({ country }) => (
           <BsArrowRightCircle className="detailBtn" />
         </NavLink>
       </div>
-      <div>
+      <div className="p-3">
         <img src={`${country.image}`} alt={`${country.country}`} className="img-fluid" />
       </div>
       <div>
