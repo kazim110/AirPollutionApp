@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# Air Pollution metric
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mobile version of SPA that indicates the levels of pollution in the air in the countries of Europe (more continents will be added eventually) - React-Redux was used for the creation and ran Test using Jest.
 
-## Available Scripts
+<a name="readme-top"></a>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+  <h3 id="title"><b>SPA website</b></h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📗 Table of Contents
 
-### `npm test`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 Air Pollution metric <a name="about-project"></a>
 
-### `npm run build`
+Discover the current levels of pollution in the air with this mobile website, you can see a graph indicating the distribution of the elements present in the region!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
+- CSS
+- JS
+- React
+- Redux
+- Jest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li> 
+    <li><a href="https://create-react-app.dev/docs/getting-started">React-app</a></li> 
+    <li><a href="https://www.w3schools.com/js/">Javascript</a></li> 
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1 Fetch API for pollution data<br>
+2 Graph for pollution values<br>
+3 Search bar<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"> here is Love Demo</a>
 
-## Learn More
+- [Live Demo](https://air-pollution-app.onrender.com)
+- Project Loom video explaination [here](https://www.loom.com/share/34264643b5a342cf85d86c689939ab2a)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Code Splitting
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+1 Web browser <br>
+2 Code editor <br>
+3 git-github<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Use these commands:
 
-### Advanced Configuration
+```sh
+  cd my-folder
+  git clone @https://github.com/kazim110/AirPollutionApp.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Install
+
+Install this project with:
+
+Run command:
+
+```sh
+  cd my-project
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
+
+### Run tests
+
+Work in progress.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I use Githud pages for the deployment of this web page.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👥 Authors <a name="authors"></a>
+
+👤 **Kazim Mohammadi**
+
+- GitHub: [@kazim110](https://github.com/kazim110)
+- Twitter: [@kazim471](https://twitter.com/kazim471)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kazim-mohammadi/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] More designs and styles!
+- [ ] Better funcionality.
+- [ ] More Imagen and maybe some videos.
+- [x] Desktop version
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome! Will help me a lot to improve my coding skills.
+
+Feel free to check the [issues page](https://github.com/kazim110/AirPollutionApp/issues)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project just keep an eye on the changes that I will bring over time, having an audience on this journey is enough support!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank to my family and God for the opportunities to always improve despite adversity and friends for being there for me, and Microverse for providing a platform to achieve this goal.
+
+- Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the original design Under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
