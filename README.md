@@ -155,7 +155,7 @@ If you like this project just keep an eye on the changes that I will bring over 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank to my family and God for the opportunities to always improve despite adversity and friends for being there for me, and Microverse for providing a platform to achieve this goal.
+- I would like to thank to my family and God for the opportunities to always improve despite adversity and friends for being there for me, and Microverse team for providing a platform to achieve this goal.
 
 - Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the original design Under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
 
