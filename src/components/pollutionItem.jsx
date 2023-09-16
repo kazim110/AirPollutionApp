@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../index.css';
 
 const PollutionItem = ({ item }) => (
-  <li className="pollution-data flex justify-between px-4 shadow-md shadow-gray-800">
-    <p className="text-base font-normal">{item.name}</p>
+  <li className="pollution-data d-flex justify-content-between px-5">
+    <p className="mb-0 fs-6">{item.name}</p>
     <div className="pollution-value">
-      <p className="text-base font-normal">
+      <p className="fs-6">
         {item.value}
         μg/m3
       </p>
