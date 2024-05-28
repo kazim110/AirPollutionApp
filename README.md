@@ -124,7 +124,7 @@ I use Githud pages for the deployment of this web page.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kazim Mohammadi**
+👤 **Mohammad Kazim Mohammadi**
 
 - GitHub: [@kazim110](https://github.com/kazim110)
 - Twitter: [@kazim471](https://twitter.com/kazim471)
