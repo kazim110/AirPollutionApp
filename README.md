@@ -5,9 +5,7 @@ Mobile version of SPA that indicates the levels of pollution in the air in the c
 <a name="readme-top"></a>
 
 <div align="center">
-
   <h3 id="title"><b>SPA website</b></h3>
-
 </div>
 
 # 📗 Table of Contents
